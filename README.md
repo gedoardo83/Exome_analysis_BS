@@ -1,7 +1,7 @@
 # Exome_analysis_BS
 Exome analysis pipeline used at UniBS
 
-## ExomeAnalysis_trioquad.pl
+## ExomePipeline_TrioQuad.pl
 This perform full analysis pipeline for trios or quad, starting directly from single samples VCFs.
 Select segregating variants according to inheritance model and generate annotated candidate variants files.
 
@@ -15,5 +15,7 @@ Select segregating variants according to inheritance model and generate annotate
 - output  --  Output folder
 - model  --  Model of inheritacne (Possible values AD / AR)
 
+`ExomePipeline_TrioQuad.pl --input mother.vcf,fater.vcf,proband.vcf --status family_status.txt --settings settings_file.txt --reference hg19.fasta --maf 0.01 --output results_folder/ --model AR --remove`
+ 
 ## Other scripts
 Desribe single steps to perform different kinds of analysis manually
