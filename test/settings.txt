@@ -1,0 +1,10 @@
+annovar=/data0/opt/annovar
+annovardb=/data0/opt/annovar/humandb
+gdi=/data0/ourtools/Exome_analysis/db_files/GDI_full_10282015.txt
+rvis=/data0/ourtools/Exome_analysis/db_files/RVIS_ExAC_4KW.ok.txt
+vcftools=/data0/opt/vcftools/bin
+vt=/data0/opt/vt/vt
+clinvar=/data0/ourtools/Exome_analysis/db_files/gene_condition_source_id_110816_pathogenic
+platform=ion
+GARFIELD=/data0/ourtools/GARFIELD-NGS/Predict.pl
+vardb=/data0/ourtools/Exome_analysis/db_files/HiQ_recurrent.position.txt
