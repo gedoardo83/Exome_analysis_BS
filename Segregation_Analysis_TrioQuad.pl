@@ -1,5 +1,6 @@
 #Processing variants in a VCF file and find segregating variants according to AR or AD model
 #Need multisample VCF and a status file
+use Getopt::Long;
 
 ############################
 ###  Processing options  ###
